@@ -1,0 +1,38 @@
+body {
+    font-family: 'Ubuntu Mono','Noto Serif SC', sans-serif;
+
+}
+
+/* 默认浅色主题 */
+body.bg-light {
+    background-color: #fff;
+    color: #333;
+}
+
+/* 深色主题 */
+body.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+/* 浅色主题下的链接颜色 */
+.bg-light a {
+    color: #0066cc;
+}
+
+/* 深色主题下的链接颜色 */
+.bg-dark a {
+    color: #00b0ff;
+}
+
+/* 浅色主题下的按钮颜色 */
+.bg-light .btn-outline-primary {
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* 深色主题下的按钮颜色 */
+.bg-dark .btn-outline-primary {
+    color: #7abaff;
+    border-color: #7abaff;
+}
